@@ -1,9 +1,28 @@
 main:
+  - title: "Blog"
+    url: /blog/
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+    
+    
+sidebar:
+  - title: Indice
+    children:
+      - title: "Indice detalhado"
+        url: /blog/#TOC
+      - title: "Fiabilidade dos Testes"
+        url: "/blog/#Fiabilidade-de-Testes"
+      - title: "APP covid"
+        url: "/blog/#APP-covid"
+      - title: "Impacto na Economia"
+        url: "/blog/#Impacto-na-Economia"
+      - title: "varios"
+        url: "/blog/#v%C3%A1rios"
+
+      
+#  - title: Customization
+#    children:
+#      - title: "Configuration"
+#        url: /docs/configurati
